@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "My first e-commerce store.",
   "main": "server/index.js",
+  "engines":{
+    "node":"12.16.0",
+    "npm":""
+  },
   "scripts": {
     "start": "node server/index.js",
     "backend": "nodemon server/index.js"
